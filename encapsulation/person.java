@@ -2,6 +2,16 @@ package encapsulation;
 
 public class person {
     
-     String name = "rezwan rahim";
+   private  String name = "rezwan rahim";
+
+    // get method
+    String getMethod(){
+        return name;
+    }
+
+    // set method.
+    void setMethod(String setName){
+        this.name = setName;
+    }
  
 }
