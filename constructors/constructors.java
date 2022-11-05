@@ -15,7 +15,11 @@ public class constructors {
         this(name,roll);
         this.position = position;
     }
+    void displayOne(){
+        System.out.println("Hello world");
+    }
     void display(){
+        displayOne();
         System.out.println("name : " + name + "\n" + "Roll : " + roll + "\n" + "position : " + position);
     }
 }
