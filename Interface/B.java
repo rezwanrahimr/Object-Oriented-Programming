@@ -10,6 +10,8 @@ public class B implements A {
         us = new B();
         us.message();
         us.draw();
+        B obj = new B();
+       System.out.println( A.message2(4));
 
     }
 }
