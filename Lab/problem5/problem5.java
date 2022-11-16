@@ -21,8 +21,9 @@ public class problem5 {
         int division = numberOne / numberTwo;
         System.out.println("division : " + division);
     }
-
-
-
-
 }
+
+
+
+
+

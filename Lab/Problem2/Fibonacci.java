@@ -16,8 +16,7 @@ public class Fibonacci {
         }
     }
 
-
     public static void main(String [] args){
-        Fibonacci.fibonaccii(10);
+        Fibonacci.fibonaccii(5);
     }
 }
